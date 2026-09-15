@@ -594,16 +594,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    aspect-ratio: 1/1;
+    grid-row: span 2;
+    aspect-ratio: auto;
 }
 
 .b2b-photo img {
     max-height: 100%;
-}
-
-.b2b-photo.tall {
-    grid-row: span 2;
-    aspect-ratio: auto;
 }
 
 /* ---------- CLIENTES ---------- */
